@@ -56,7 +56,7 @@ body {
   border: 1px solid;
   border-radius: 30px;
   width: 500px;
-  padding: 15px 70px;
+  padding: 15px 50px;
   background: rgb(243, 247, 248);
   position: relative;
 }
@@ -231,12 +231,15 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  margin-top: -20px ;
-}
-/* .top-categories-content img:hover {
+  margin-top: -20px;
   cursor: pointer;
-  transition: 2.2s ease-in-out;
-} */
+}
+
+.top-categories-content img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: .1s ease-in;
+}
 .featured-topics {
   background: rgb(243, 247, 248);
   padding: 1.4rem 2.4rem;
