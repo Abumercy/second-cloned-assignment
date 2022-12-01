@@ -238,7 +238,7 @@ body {
 .top-categories-content img:hover {
   cursor: pointer;
   transform: scale(1.1);
-  transition: 0.1s ease-in;
+  transition: .2s ease-in;
 }
 .featured-topics {
   background: rgb(243, 247, 248);
